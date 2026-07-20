@@ -1,0 +1,17 @@
+Open the homepage of Zomato or Flipkart in your browser and carefully review it for any visible errors, bugs, or defects (such as broken images, misaligned buttons, typos, or non-working links). List at least 3 issues you observe and describe why you think each one is a defect.
+
+Answer . My anbsqwer is ..........
+
+2.
+Write a short explanation (2-3 sentences each) for the following: What is the difference between an error, a bug, and a defect? Give one real-world example for each from any app you use daily (e.g., Instagram, Paytm, IRCTC).
+
+M<y answer is 
+
+3.
+Think of a recent time when an app you use (like WhatsApp, BookMyShow, or PhonePe) didn't work as expected. Identify the possible cause of the defect: was it a human error, a technical limitation, or a process gap? Explain your reasoning for each case.<br><br><em><strong>Hint:</strong> Consider examples like payment failures, app crashes, or incorrect notifications.</em>
+My answer is 
+
+4.
+Imagine you are testing a new food delivery app (like Swiggy). List 3 types of risks that could affect the quality of the app before launch (for example: security risk, usability risk, performance risk). For each risk, briefly explain how it could impact users.
+5.
+You are given a mini project: a Movie Ticket Booking webpage. Classify the following as either a defect or a risk: (a) The 'Book Now' button does not respond on mobile, (b) There is no logout option, (c) The app sometimes loads slowly during IPL match days. Justify your answer for each.
