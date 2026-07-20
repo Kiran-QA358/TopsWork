@@ -1,0 +1,10 @@
+List 3 key responsibilities each for a Tester and a Test Leader in a software project, and give one example of how each role contributes during a release cycle.
+
+1. dfkljdgldijfgdfkglj
+
+2.
+Pick any app you use daily (Instagram, Zomato, Paytm, etc.) and write a one-paragraph comparison of how Quality Assurance (QA) and Quality Control (QC) would be performed for that app.<br><br><em><strong>Hint:</strong> Think about activities done before coding vs after coding is complete.</em>
+3.
+Explain the difference between Testing and Debugging by describing what a tester does vs what a developer does when a bug is found in a Flipkart-style shopping cart feature.
+4.
+Create a basic test plan skeleton in a Word or Google Doc for a new feature in a food delivery app (like Swiggy) — include at least these sections: Test Plan ID, Feature Description, Test Scope, Roles & Responsibilities, Test Environment, and Test Deliverables.<br><br><em><strong>Constraint:</strong> Do not copy any template from the internet; write each section in your own words for a real food delivery feature (e.g., promo code, order tracking).</em>
