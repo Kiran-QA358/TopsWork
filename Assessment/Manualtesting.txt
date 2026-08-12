@@ -1,0 +1,105 @@
+SECTION : A 
+------------
+Question: 1 Based on the Agile SDLC model, explain when testing should begin in the sprint cycle, define two entry criteria and two exit criteria you would propose for a sprint, and describe how testing in an Agile model fundamentally differs from testing in the Waterfall model.
+
+ANSWER:
+In an Agile model testing should start early in the sprint, as soon as a feature is developed and is ready for testing. Testing continues along with development throughout the sprint.
+
+Entry Criteria:
+
+1. The requirements are clear.
+2. The build is ready and can be tested.
+
+Exit Criteria:
+
+1. All planned test cases are executed.
+2. Important defects are fixed and the application is working as expected.
+
+Agile vs Waterfall:
+- In Agile, development and testing happen together in every sprint.
+- In Waterfall, testing usually starts after the development phase is completed.
+- Agile allows quick feedback and changes, while Waterfall follows a fixed sequence of phases.
+
+Question: 2 Identify three non-functional testing types that are critical for this payment gateway scenario and justify why each cannot be skipped. Then apply the relevant principle from the 7 Key Principles of Testing that explains why attempting to test every possible transaction combination is not feasible.
+
+ANSWER:
+1. Performance Testing
+It checks whether the payment gateway can work properly when many users use it at the same time.
+Why important: It should handle 5,000 transactions without becoming slow or crashing.
+
+2. Security Testing
+It checks whether payment and customer information is safe.
+Why important: It protects users from data theft and unauthorized access.
+
+3. Reliability Testing
+It checks whether the payment gateway works correctly without frequent failures.
+Why important: Customers should be able to make payments successfully.
+
+Testing Principle:
+Testing every possible transaction is not possible because there are too many combinations.
+
+
+Question:3 Using Equivalence Partitioning and Boundary Value Analysis, identify all valid and invalid equivalence partitions for this field, list the exact boundary values, and explain which technique offers better defect coverage for this specific scenario and why
+
+ANSWER:
+Valid Equivalence Partitions:
+
+-6–10 alphanumeric characters → Valid
+-Less than 6 characters → Invalid
+-More than 10 characters → Invalid
+-Special characters → Invalid
+
+Boundary Values:
+
+-5 characters → Invalid
+-6 characters → Valid
+-10 characters → Valid
+-11 characters → Invalid
+
+Question: 4 Classify both defects using the correct Severity and Priority labels from the categories taught in class. Explain the difference between Severity and Priority using these two defects as examples, and justify which defect must be fixed first — and why.
+
+ANSWER:
+Defect A: The app crashes when the user taps “Place Order” on some Android devices.
+
+Severity: High
+Priority: High
+Reason: The main function of the app does not work, so users cannot place orders.
+
+Defect B: The restaurant logo is slightly misaligned on the iPhone SE listing screen.
+
+Severity: Low
+Priority: Low
+Reason: It is only a small visual issue and does not stop users from using the app.
+
+Severity vs Priority
+Severity = How serious the defect is.
+Priority = How quickly the defect should be fixed.
+
+Defect A must be fixed first because users cannot place orders.
+
+Question:5 Identify the two distinct types of testing that this scenario calls for, describe the specific checks you would perform for each type, and name the tools or methods a QA tester would use to efficiently replicate and document both issues.
+
+ANSWER:
+1. Cross-browser Testing
+It checks whether the website works properly on different browsers.
+-Test on Chrome.
+-Test on Firefox.
+-Check the Track Order map on both browsers.
+
+2. Responsive Testing
+It checks whether the website looks good on different screen sizes.
+-Test the checkout page on a 768px tablet screen.
+-Check that the page does not break or collapse.
+
+Tools/Methods:
+
+-Chrome and Firefox
+-Browser Developer Too
+
+Question: 6 Describe how you would use SQL to validate that the delivery address captured in the UI was correctly stored in the database. Write the SQL query structure you would use, and explain the difference between data verification and data validation in this context
+
+ANSWER:
+
+
+
+
