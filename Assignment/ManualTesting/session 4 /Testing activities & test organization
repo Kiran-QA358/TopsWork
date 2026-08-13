@@ -1,0 +1,41 @@
+1.
+Pick any one app you use daily (like Zomato, Instagram, or Paytm) and list 6 specific testing activities you would perform before its latest feature release. For each activity, write 1 line describing what it checks.
+
+ANSWER:
+App: Instagram
+
+Login Testing – Check that the user can log in.
+New Feature Testing – Check that the new feature works properly.
+Button Testing – Check that all buttons work correctly.
+UI Testing – Check that the screen looks correct.
+Performance Testing – Check that the app works fast.
+Compatibility Testing – Check that the app works on different phones.
+
+
+2.
+Create a responsibility matrix (RACI chart) for a test team working on a new Flipkart-style shopping cart feature. Include at least 4 roles: Tester, Test Leader, Developer, and Product Owner. Assign who is Responsible, Accountable, Consulted, and Informed for each of these activities: Test Planning, Test Case Design, Test Execution, Bug Reporting.
+
+ANSWER:
+
+
+
+3.
+Write a brief job description (3-4 lines) for the role of a Test Leader in a team testing a new BookMyShow movie booking feature. Focus on daily responsibilities and decision-making areas.
+
+ANSWER:
+A Test Leader manages the testing team and plans daily testing work.
+They assign tasks to testers and check the testing progress.
+They discuss important bugs with developers and help solve testing problems.
+They decide whether the movie booking feature is ready to launch.
+
+4.
+Define a list of at least 5 testing activities needed for a small project to add a 'Dark Mode' toggle in a music app like Spotify. For each activity, specify whether it should be done by the Tester or Test Leader.<br><br><em><strong>Hint:</strong> Think about planning, designing, executing, and reviewing tests for this feature.</em>
+
+ANSWER:
+Dark Mode Testing Activities:
+
+1.Test Planning – Make a plan for testing Dark Mode. → Test Leader
+2.Test Case Writing – Write test cases for Dark Mode. → Tester
+3.Test Execution – Turn Dark Mode on and off and check it. → Tester
+4.Bug Reporting – Report any problem found in Dark Mode. → Tester
+5.Test Review – Check the test results and decide if the feature is ready. → Test Leader
