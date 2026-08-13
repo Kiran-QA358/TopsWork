@@ -1,0 +1,101 @@
+1.
+Pick any one feature from a popular app you use (for example, 'Add to Cart' in Flipkart or 'Send Message' in WhatsApp) and write 5 high-level test scenarios for it. List each scenario clearly.
+
+Answer:
+Feature: Flipkart – Add to Cart
+Add Product – Check that a product can be added to the cart.
+Remove Product – Check that a product can be removed from the cart.
+Change Quantity – Check that product quantity can be increased or decreased.
+Check Price – Check that the product price is shown correctly.
+Check Total – Check that the total cart price is correct.
+
+
+2.
+For the 'Search Restaurant' feature in a Zomato-like app, write 10 specific test scenarios covering both functional and non-functional aspects.<br><br><em><strong>Hint:</strong> Think about different search inputs, filters, empty results, speed, and UI behavior.</em>
+
+Answer:
+Search Restaurant – 10 Test Scenarios
+
+Functional Testing:
+Search with a correct restaurant name.
+Search with a wrong restaurant name.
+Search using only part of a restaurant name.
+Search with a food name, like “Pizza”.
+Use filters like rating, price, and distance.
+Check that the correct results appear after using filters.
+Search with an empty search box and check the result.
+
+Non-Functional Testing:
+Check that search results appear quickly.
+Check that the search page looks correct on different screen sizes.
+Check that search works properly with many users at the same time.
+
+
+3.
+Choose one scenario from your Zomato 'Search Restaurant' scenarios and convert it into 5 detailed test cases. Each test case should include: Test Case ID, Steps, Test Data, Expected Result, and Actual Result (leave Actual Result blank).
+Answer:
+
+Scenario: Search by restaurant name
+
+Test Case ID	         Steps	                Test Data            	Expected Result	            Actual Result
+TC01          	Search restaurant	            Pizza Hut	            Pizza Hut appears          	Pizza Hut appeared
+TC02	          Search restaurant	            Domino's	            Domino's appears           	Domino's appeared
+TC03	          Search restaurant	            ABC123              	No result shown	            No result shown
+TC04	          Search restaurant	            Pizza	                Pizza restaurants appear   	Pizza restaurants appeared
+TC05	          Search restaurant           	McDonald's	          McDonald's appears	        McDonald's appeared
+
+
+4.
+Download or create a simple test case template in Excel or Google Sheets. Fill it with 4 test cases for the 'Add to Playlist' feature in a Spotify-like app, using the columns: Test Case ID, Scenario, Steps, Test Data, Expected Result.
+
+Answer:
+Spotify – Add to Playlist
+
+Test Case ID                 	Scenario	                   Steps	               Test Data               	Expected Result
+TC01                     	Add song           	      Select song → Add	            Believer	                  Song added
+TC02                      Add song	                Select song → Add            	Perfect                   	Song added
+TC03	                   Add song to new playlist   Create playlist → Add song   	My Playlist            	    Song added
+TC04                   	 Add same song             	Add same song twice          	Believer                   	Song added only once
+
+
+5.
+Write a basic test script (in plain English, not code) for the 'Login with OTP' feature in a Paytm-style app, describing the exact steps a tester would follow to manually test the OTP flow from start to finish.<br><br><em><strong>Constraint:</strong> Include both valid and invalid OTP scenarios in your script.</em>
+
+Answer:
+Login with OTP – Test Script
+
+Valid OTP:
+
+Open the app.
+Enter mobile number.
+Click Send OTP.
+Enter the correct OTP.
+Click Login.
+Check that login is successful.
+
+Invalid OTP:
+
+Enter mobile number.
+Click Send OTP.
+Enter a wrong OTP.
+Click Login.
+Check that an error message is shown.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
