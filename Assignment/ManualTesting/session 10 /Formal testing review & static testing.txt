@@ -1,5 +1,64 @@
+1.
+Download a sample SRS (Software Requirements Specification) document for a food delivery app (like Zomato) and perform a peer review by highlighting at least 5 unclear or ambiguous requirements.
+
+Answer:
+Answer – SRS Peer Review
+
+No.                       	Unclear Requirement                          	Problem
+1	                      App should load quickly.                  Quickly” is not specific.
+2	                      User can search restaurants easily.       Easily” is unclear.
+3	                      Payment should be secure.	                It does not explain how secure.
+4	                      Order should be delivered fast.        	  Fast” does not give a fixed time.
+5	                      App should work on all phones.	          It does not say which phones or versions.
 
 
+
+2.
+Conduct an informal review of a friend's written test case set for a simple login feature (username and password), and write down 3 suggestions or improvements you would make.
+
+Answer:
+Informal Review – Login Test Cases
+
+Add wrong username test – Check login with an incorrect username.
+Add wrong password test – Check login with an incorrect password.
+Add empty field test – Check login when username or password is blank.
+
+
+3.
+Simulate a walkthrough session by explaining the steps of a test case for 'Add to Cart' functionality (like Flipkart) to a classmate and note any questions or feedback they give you.<br><br><em><strong>Hint:</strong> Focus on whether all steps are clear and if any preconditions or expected results are missing.</em>
+
+Answer:
+Walkthrough – Add to Cart
+
+Test Case: Add a product to cart.
+Steps:
+Open the shopping app.
+Search for a product.
+Select the product.
+Click Add to Cart.
+Open the cart.
+
+Expected Result: Product should be added to the cart.
+
+Classmate Feedback:
+Add a step to login first.
+Mention the product name in test data.
+Clearly write that the product should appear in the cart.
+
+
+4.
+Identify 4 types of errors or issues that static testing (reviewing documents or code without execution) can catch in a test case document for an online movie booking system (like BookMyShow).
+
+Answer:
+Static Testing – Movie Booking Test Case
+
+Static testing means checking documents or test cases without running the application.
+
+4 issues we can find:
+Missing Steps – Some steps are not written.
+Wrong Information – Wrong movie name, date, or price is given.
+Unclear Steps – Steps are difficult to understand.
+Missing Result – Expected result is not mentioned.
 
 
 
