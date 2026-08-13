@@ -16,7 +16,23 @@ Compatibility Testing – Check that the app works on different phones.
 Create a responsibility matrix (RACI chart) for a test team working on a new Flipkart-style shopping cart feature. Include at least 4 roles: Tester, Test Leader, Developer, and Product Owner. Assign who is Responsible, Accountable, Consulted, and Informed for each of these activities: Test Planning, Test Case Design, Test Execution, Bug Reporting.
 
 ANSWER:
+RACI Chart – Shopping Cart Feature
 
+R = Does the work
+A = Final responsibility
+C = Gives advice
+I = Gets updates
+
+Activity             	Tester	  Test Leader    	Developer	    Product Owner
+Test Planning         	R          	A             	C             	I
+Test Case Design      	R	          A             	C              	I
+Test Execution        	R	          A             	C             	I
+Bug Reporting	          R	          A             	C             	I
+
+Tester: Does the testing and reports bugs.
+Test Leader: Plans and manages testing.
+Developer: Helps with technical issues and fixes bugs.
+Product Owner: Gives requirements and receives updates.
 
 
 3.
