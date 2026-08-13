@@ -1,0 +1,85 @@
+1.
+Write a unit test scenario for the 'Add to Cart' function in a shopping app like Flipkart, focusing on what should be tested at the smallest code level (e.g., adding an item updates the cart count).
+
+ANSWER:
+Unit Test Scenario – Add to Cart
+Scenario: Check the Add to Cart function.
+Test: Add one product to the cart.
+Input: 1 product
+Expected Result: Cart count should increase by 1.
+
+Example: If the cart has 2 items, after adding one item it should show 3 items.
+
+
+2.
+Describe an integration testing scenario for a payment flow in a food delivery app like Zomato, where you need to test the interaction between the order placement module and the payment gateway.
+
+ANSWER:
+Integration Testing Scenario – Payment
+
+Scenario: Test food order payment.
+
+Place a food order.
+Select a payment method.
+Complete the payment.
+Check that payment is successful.
+Check that the order is confirmed.
+
+Expected Result:
+After successful payment, the order should be confirmed.
+
+order system and payment system work together correctly.
+
+
+3.
+Write a system testing scenario for the ticket booking process in an app like BookMyShow, covering the entire end-to-end flow from searching for a movie to receiving a booking confirmation.
+
+ANSWER:
+System Testing Scenario – Movie Booking
+Scenario: Check the full movie ticket booking process.
+
+1.Search for a movie.
+2.Choose a theatre and show time.
+3.Select the seats.
+4.Enter the required details.
+5.Pay for the ticket.
+6.Check the booking message.
+
+Expected Result: The ticket should be booked successfully and the user should get a confirmation message.
+
+
+4.
+Create an acceptance testing (UAT/SAT) scenario for a new playlist feature in a music app like Spotify, focusing on how a real user would verify that the feature meets their needs.
+
+ANSWER:
+Acceptance testing– Playlist Feature
+
+Scenario: Check if the user can use the new playlist feature.
+
+Create a new playlist.
+Add songs to the playlist.
+Save the playlist.
+Open the playlist and play songs.
+
+Expected Result: The user should be able to create, save, and play the playlist easily.
+
+
+5.
+Write a scenario for either alpha or beta testing for a new group chat feature in a messaging app like WhatsApp, specifying who would perform the test and what feedback is expected.<br><br><em><strong>Hint:</strong> Think about internal employees vs. real users and the types of issues they might report.</em>
+
+ANSWER:
+Beta Testing – Group Chat
+
+Scenario: Test the new group chat before the final release.
+
+Who tests? Real users.
+What do they do? Create a group and send messages.
+What feedback is expected? They report issues like messages not sending, notifications not working, or the app being slow.
+Goal: Make the group chat better before releasing it to everyone.
+
+
+
+
+
+
+
