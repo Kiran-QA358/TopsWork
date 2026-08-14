@@ -1,0 +1,69 @@
+1.
+Sign up for a free Jira account (cloud version), create a new project using the Scrum template, and take a screenshot of your empty Scrum board.
+
+Answer:
+Task 1 – Create Jira Scrum Project
+
+Steps:
+Go to Jira Cloud and create a free account.
+Log in to Jira.
+Click Create project.
+Select the Scrum template.
+Enter a project name, for example Demo Scrum Project.
+Click Create project.
+Open the Backlog or Board section.
+Check that the Scrum board is empty.
+Take a screenshot of the empty Scrum board.
+
+
+2.
+In your Jira Scrum board, create an epic named 'Food Delivery App Features' and add three user stories under it: 'As a user, I want to search for restaurants', 'As a user, I want to track my order in real-time', and 'As a user, I want to pay using UPI'
+
+Answer:
+Jira Task
+
+Epic: Food Delivery App Features
+User Stories:
+
+Search for restaurants.
+Track the order live.
+Pay using UPI.
+
+Steps: Create the epic → Add the 3 stories → Save.
+
+
+3.
+For the user story 'As a user, I want to search for restaurants', add two sub-tasks: 'Design search UI' and 'Integrate restaurant API'.
+
+Answer:
+Task :
+Design search UI
+Integrate restaurant API
+
+Result: 2 sub-tasks added successfully.
+
+
+4.
+Change the status of one of your sub-tasks from 'To Do' to 'In Progress' and then to 'Done' using the Jira board workflow.<br><br><em><strong>Hint:</strong> Drag and drop the task across columns to update its status.</em>
+
+Answer:
+Task :
+Select one sub-task.
+Move it from To Do → In Progress.
+Then move it from In Progress → Done.
+
+Result: Sub-task status changed to Done successfully.
+
+
+5.
+Explore the different issue types available in Jira (Epic, Story, Task, Bug). For each type, create a sample issue in your project and write one line explaining when you would use that issue type in a real Zomato or Swiggy-like app.
+
+Answer:
+types:
+Epic: Food Delivery Features — Used for a big feature.
+Story: Search Restaurant — Used for a user feature.
+Task: Design Search Page — Used for a work task.
+Bug: Payment Not Working — Used for a problem.
+
+Result: All 4 issue types were created successfully.
+
