@@ -2,11 +2,21 @@
 Use the online API testing tool ReqRes (https://reqres.in/) to make a GET request to /api/users/2 and note down the response status code and the returned user's first name.
 
 Answer:
+Answer
+
+API: ReqRes
+Request: GET /api/users/2
+
+Status Code: 200 OK
+First Name: Janet
+
+Result: PASS
 
 2.
 Send a POST request using ReqRes to /api/users with JSON data {"name": "Virat", "job": "Cricketer"} and write down the response code and the id value returned in the response.
 
 Answer:
+
 
 3.
 Given the following JSON response from an API: {"id": 101, "name": "Pizza Hut", "location": "Ahmedabad"}, write the SQL INSERT statement to add this restaurant to a table named restaurants with columns id, name, and location.
