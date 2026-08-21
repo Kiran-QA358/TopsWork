@@ -2,13 +2,10 @@
 Use the online API testing tool ReqRes (https://reqres.in/) to make a GET request to /api/users/2 and note down the response status code and the returned user's first name.
 
 Answer:
-API: ReqRes
+
 Request: GET /api/users/2
-
-Status Code: 200 OK
-First Name: Janet
-
-Result: PASS
+Status: 200 OK
+First name: Janet
 
 
 2.
@@ -16,18 +13,9 @@ Send a POST request using ReqRes to /api/users with JSON data {"name": "Virat", 
 
 Answer:
 
-Endpoint: /api/users
-Method: POST
-
-Request Body:
-
-{
-  "name": "Virat",
-  "job": "Cricketer"
-}
-
-Response Code: 201 Created
-ID: 123
+Request: POST /api/users
+Status: 201 Created
+ID: New ID is created.
 
 
 3.
@@ -38,7 +26,6 @@ Answer:
 INSERT INTO restaurants (id, name, location)
 VALUES (101, 'Pizza Hut', 'Ahmedabad');
 
-This query adds the restaurant Pizza Hut with ID 101 and location Ahmedabad into the restaurants table.
 
 
 4.
