@@ -2,49 +2,32 @@
 Open Zomato.com in Chrome, press F12 to open DevTools, and use the device toolbar to simulate the site on iPhone 12, iPad, and a standard desktop. List 3 layout or UI changes you observe between these views.
 
 Answer:
-Website: Zomato.com
+1. iPhone 12: Content looks smaller and fits the mobile screen.
+2. iPad: Content has more space and looks wider.
+3. Desktop: Full menu and more content are visible.
 
-Devices Tested: iPhone 12, iPad, Desktop
-
-3 UI Changes Observed:
-Menu: Mobile has a smaller/compact menu, while desktop has more options visible.
-Layout: Mobile shows content in a single-column layout; desktop shows more content side-by-side.
-Images & Buttons: Images and buttons resize to fit the screen size.
-
-Zomato UI changes properly according to the screen size. 
-
-Status: Pass
 
 2.
 Pick any Flipkart product page and resize your browser window from desktop width down to mobile width. Note at which pixel widths (breakpoints) major layout shifts happen (e.g., menu collapses, grid changes to list). List the breakpoints and describe what changes at each.
 
 Answer:
-Website: Flipkart Product Page
 
-1200px+ → Desktop layout.
-768–1199px → Layout becomes smaller.
-480–767px → Tablet-style layout.
-Below 480px → Mobile layout; content comes one below another.
-
-Result: Page layout changes correctly with screen size. 
-Status: Pass
+Filpkart:
+1200px: Desktop layout.
+768px: Layout becomes smaller.
+480px: Mobile layout with one column.
 
 
 3.
 Open Myntra.com in both Chrome and Firefox browsers on your laptop. Take screenshots of the homepage in both browsers at desktop size and compare them. Identify and describe 2 differences in how elements (fonts, buttons, images, etc.) are rendered.
 
 Answer:
-Myntra Browser Testing
 
-Website: Myntra.com
-Browsers: Chrome and Firefox
+Myntra Browser Testing:
+Chrome: Text and images look clear.
+Firefox: Text or buttons may look a little different.
 
-Differences Observed:
-Fonts : Text and fonts look slightly different in Chrome and Firefox.
-Images: Some images may look slightly different in size or position.
-
-Result: Myntra homepage works in both browsers.
-Status: Pass 
+Overall: The page looks almost the same.
 
 
 4.
@@ -54,17 +37,11 @@ Answer:
 Website: BookMyShow.com
 Tool: BrowserStack
 
-Test 1 – Chrome Desktop:
-Navigation, banners and buttons worked properly. Pass 
+Chrome: Page works normally.
+Edge: Page looks almost the same.
+Mobile: Menu and banners become smaller.
 
-Test 2 – Edge Desktop:
-Navigation, banners and buttons worked properly. Pass 
-
-Test 3 – Chrome Mobile:
-Menu and banners adjusted properly to the mobile screen. Pass 
-
-Test 4 – Edge Mobile:
-Buttons, menu and banners displayed correctly. Pass 
+Issue: Some buttons may look different on mobile.
 
 
 5.
@@ -75,12 +52,11 @@ Spotify Web
 
 Tool: Chrome DevTools
 
-No.           	   Problem                    	Device Size	               Possible Fix
-1	             Menu is too crowded	             375 × 667	              Make menu smaller
-2	             Text is too small	               375 × 667	              Increase font size
-3              Album images are too large	       390 × 844	              Reduce image size
-4	             Buttons are too close	           412 × 915	              Add more spacing
-5	             Content goes outside screen	     320 × 568	              Use responsive layout
+1. Menu big — 375px — Make smaller.
+2. Text overlaps — 320px — Reduce text size.
+3. Images cut — 375px — Resize images.
+4. Buttons close — 360px — Add space.
+5. Side scrolling — 320px — Fit screen.
 
 
 
