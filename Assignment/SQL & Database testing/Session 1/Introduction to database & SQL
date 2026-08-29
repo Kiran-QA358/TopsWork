@@ -3,6 +3,8 @@ Install MySQL Community Server or use an online SQL editor like db-fiddle.com, t
 
 Answer:
 
+
+
 2.
 Inside your insta_clone_practice database, create a table called users with columns: id (INT, primary key, auto-increment), username (VARCHAR), email (VARCHAR), and created_at (DATETIME).
 
