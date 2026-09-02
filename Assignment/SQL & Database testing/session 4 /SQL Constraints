@@ -50,14 +50,13 @@ Add a CHECK constraint to the Playlist table so that song_name must be at least 
 
 Answer:
 
-1.Add CHECK Constraint:
+1. Add CHECK constraint:
 ALTER TABLE Playlist
-ADD CONSTRAINT check_song_name
-CHECK (CHAR_LENGTH(song_name) >= 3);
+ADD CHECK (LENGTH(song_name) >= 3);
 
-2. Insert 2-character song name
-INSERT INTO Playlist (song_id, song_name, artist)
-VALUES (1, 'AB', 'Arijit singh');
+2. Insert 2-character song:
+INSERT INTO Playlist (song_name)
+VALUES ('AB');
 
-Error:
-ERROR 3819 (HY000): Check constraint 'check_song_name' is violated.
+3. Error:
+ERROR 3819: Check constraint is violated.
